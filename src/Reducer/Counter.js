@@ -1,4 +1,4 @@
-const initialSteate =0 ;
+const initialSteate =10 ;
 
 const updatedNumber = (state=initialSteate,action)=>{
 
