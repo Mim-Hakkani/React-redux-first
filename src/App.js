@@ -3,21 +3,16 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+       <h1 className='text-center'>Wellcome To the React Redux Project </h1>
+
+       <div style={{display:'flex'}} className="mt-5 text-center justify-content-center">
+        <h3 className='btn btn-primary py-2'>Increment +</h3>
+        <input type="text" name="" id="" value="0" className='form-control w-25'  />
+        <h3 className='btn btn-danger py-2'>Decrement -</h3>
+       </div>
+    
+
     </div>
   );
 }
